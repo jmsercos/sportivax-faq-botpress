@@ -96,11 +96,11 @@ Asegúrate de haber pegado ambos <script> del snippet v3.2 en index.html, sin co
 El bot no reconoce una pregunta
 Añade esa formulación en Knowledge Base (o en Q&A si lo usas) y Publish de nuevo.
 
-Cambios no se ven
+Los cambios no se ven
 Repite Publish en Botpress y luego refresca la página en Replit.
 
 Error de CORS / carga
-Verifica que el primer <script> apunta a
+Verifica que el primer <script> apunta a: 
 https://cdn.botpress.cloud/webchat/v3.2/inject.js
 y el segundo a un dominio https://files.bpcontent.cloud/... (tu archivo de configuración).
 
